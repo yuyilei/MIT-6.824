@@ -15,7 +15,7 @@ Map部分主要是“分”，Reduce进行结果的汇总。
 
 这是MapReduce的实现过程:
 
-![](http://ohr9krjig.bkt.clouddn.com/Screen%20Shot%202018-10-04%20at%2018.14.47.png)
+![](http://ohr9krjig.bkt.clouddn.com/Screen%20Shot%202018-10-04%20at%2021.22.01.png)
 
 MapReduce分为两部分：Map和Reduce。集群中机器（worker）分为三种：Master，Mapper，和Reducer。Master负责调度Mapper和Reducer。
 
