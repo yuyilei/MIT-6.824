@@ -123,7 +123,7 @@ P2: (m,1.1), (n,1.2)；
 3. P2会返回ACK给(m,1.1)和(n,1.2)；
 
 
-![](https://upload-images.jianshu.io/upload_images/4440914-a708212b46d1c6d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/4440914-f221e8fa10dc492b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 4. P1和P2获得了全部进程对(m,1.1)的ACK，且在队列头部，(m,1.1)被执行；
 5. P1在操作完成之前不会返回ACK给(n,1.2)；
