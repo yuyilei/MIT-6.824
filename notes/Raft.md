@@ -184,8 +184,11 @@ leader不能断定一个之前任期里的日志条目被保存到大多数serve
 ![](https://upload-images.jianshu.io/upload_images/4440914-c9b372883ffd4ff0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 a. S1是leader，复制日志2到S1，S2；
+
 b. S5是leader（S3，S4，S5投票），复制日志3到S5；
+
 c. S1是leader（S1，S2，S3，S4投票），复制日志2到S3；
+
 d. S5是leader（S2，S3，S4，S5投票），覆盖了S1，S2，S3上的日志2；
 
 Raft不会通过计算副本数目的方式去提交一个前一个任期内的日志条目。只有leader当前任期里的日志条目通过计算副本数目可以被提交；一旦当前任期的日志条目以这种方式被提交，那么由于日志匹配性，之前的日志条目也都会被间接的提交。
