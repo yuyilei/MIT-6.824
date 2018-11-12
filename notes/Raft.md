@@ -46,6 +46,7 @@ Raft 是一种为了管理复制日志的一致性算法。Raft将一致性算�
 |lastApplied| 已知的最大的已经被应用到状态机的日志条目的索引值(初始化为0，持续递增)|
 
 leader上经常改变的状态：
+
 |参数|说明|
 |--|--|
 |nextIndex[]|对于每一次服务器，需要发送给它的下一个日志条目的索引（初始化为leader最后一个日志的索引加一）|
@@ -67,6 +68,7 @@ leader发起附加日志的请求使用的是RPC。
 |leaderCommit|leader的commitIndex|
 
 对于附加日志RPC的响应：
+
 |参数|说明|
 |--|--|
 |term|接受者的currentTerm，用于leader更新自己的term|
