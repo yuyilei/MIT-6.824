@@ -220,6 +220,8 @@ Raft Lab实现的简略图:
 
 一个sever上运行两个goroutinue，一个goroutinue维持三个状态的转变称为goroutinue1；另一个负责向service提交已经submit的日志条目的信息（持久化处理，用于crash后重启），称为goroutinue2。
 
+goroutinue之间的通信用channel。
+
 goroutinue1：
 
 ```python
