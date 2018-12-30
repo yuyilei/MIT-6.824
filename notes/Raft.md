@@ -206,5 +206,77 @@ follower不会给日志没有它新的candidate投票，一个candidate想要成
 
 
 
+## Raft Lab 
+
+各个server之间的状态转化：
+
+![](https://upload-images.jianshu.io/upload_images/4440914-b40fe47d0f8118a9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+Raft Lab实现的简略图:
+
+![](https://upload-images.jianshu.io/upload_images/4440914-2185e8c2d609b468.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+具体过程：
+
+一个sever上运行两个goroutinue，一个goroutinue维持三个状态的转变称为goroutinue1；另一个负责向service提交已经submit的日志条目的信息（持久化处理，用于crash后重启），称为goroutinue2。
+
+goroutinue之间的通信用channel。
+
+goroutinue1：
+
+```python
+while true：
+    if state is follwer:  
+        初始化超时时间；
+        while true：
+            if 接收到投票请求 and 成功投票:
+                重置超时时间
+            elif 接收到heartbeat and leader的任期大于自己：
+                重置超时时间
+            elif 接收到AppendEntry and leader的任期大于自己：
+                重置超时时间 
+            elif 超时：
+                become a candidate 
+                break 
+        
+    if state is candidate:
+        构造requestVote请求 
+        给自己投票
+        初始化投票超时时间 
+        对其他server广播投票请求
+        while true:
+            if 接收到heartbeat and leader的任期大于自己：
+                become a follower 
+                break
+            if 接收到AppendEntry and leader的任期大于自己：
+                become a follower 
+                break 
+            if 选举成功：
+                become a leader 
+                break
+            if 选举失败(超时)：
+                下一轮选举
+                
+    if state is leader:
+        while state is leader:
+            对其他server发送heartbeat或者appendentry
+            sleep(一段时间) 
+        become a follower 
+```
+
+
+goroutinue2:
+
+```python
+while true:
+    if 从goutinue2中获得Msg（通过channel）：
+        // 发送每一条已经submit到server上，但未提交的日志
+        for index in range(LastApplied+1,commitIndex+1):
+            ApplyMsg = Msg(Entry[index])
+            send ApplyMsg to service (通过channel)
+        
+        // 更新LastApplied 
+        LastApplied = commitIndex 
+```
 
 
