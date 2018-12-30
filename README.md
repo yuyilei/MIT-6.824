@@ -6,4 +6,4 @@
 - [x] Remote Procedure Call: [note](https://github.com/yuyilei/MIT-6.824/blob/master/notes/RPC.md)、 [demo](https://github.com/yuyilei/gRPC_demo)               
 - [x] Time Synchronization: [note](https://github.com/yuyilei/MIT-6.824/blob/master/notes/TimeSynchronization.md) 
 - [x] Mutual Exclusion: [note](https://github.com/yuyilei/MIT-6.824/blob/master/notes/MutualExclusion.md)
-- [x] Raft Consensus Algorithm: [note](https://github.com/yuyilei/MIT-6.824/blob/master/notes/Raft.md)
+- [x] Raft Consensus Algorithm: [note](https://github.com/yuyilei/MIT-6.824/blob/master/notes/Raft.md) [SnapShot](https://github.com/yuyilei/MIT-6.824/blob/master/notes/RaftSnapShot.md)
