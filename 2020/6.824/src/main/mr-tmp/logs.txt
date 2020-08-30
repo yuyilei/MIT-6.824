@@ -1,0 +1,1311 @@
+2020/08/30 18:30:22 rpc.Register: method "Done" has 1 input parameters; needs exactly three
+2020/08/30 18:30:23 Assign a task to map first time, taskId= 5
+2020/08/30 18:30:23 Assign a task to map first time, taskId= 6
+2020/08/30 18:30:23 Assign a task to map first time, taskId= 0
+2020/08/30 18:30:23 AskMapTask success, reply= {../pg-sherlock_holmes.txt 6 true 10}
+2020/08/30 18:30:23 AskMapTask success, reply= {../pg-metamorphosis.txt 5 true 10}
+2020/08/30 18:30:23 Start to do map task, taskId= 5, FileName= ../pg-metamorphosis.txt 
+2020/08/30 18:30:23 Start to do map task, taskId= 6, FileName= ../pg-sherlock_holmes.txt 
+2020/08/30 18:30:23 AskMapTask success, reply= {../pg-being_ernest.txt 0 true 10}
+2020/08/30 18:30:23 Start to do map task, taskId= 0, FileName= ../pg-being_ernest.txt 
+2020/08/30 18:30:23 Finish the map task, taskId= 5, then tell master
+2020/08/30 18:30:23 Mark the Map Task Completed in teller, TaskId= 5
+2020/08/30 18:30:23 Assign a task to map first time, taskId= 1
+2020/08/30 18:30:23 AskMapTask success, reply= {../pg-dorian_gray.txt 1 true 10}
+2020/08/30 18:30:23 Start to do map task, taskId= 1, FileName= ../pg-dorian_gray.txt 
+2020/08/30 18:30:23 Finish the map task, taskId= 0, then tell master
+2020/08/30 18:30:23 Mark the Map Task Completed in teller, TaskId= 0
+2020/08/30 18:30:23 Assign a task to map first time, taskId= 2
+2020/08/30 18:30:23 AskMapTask success, reply= {../pg-frankenstein.txt 2 true 10}
+2020/08/30 18:30:23 Start to do map task, taskId= 2, FileName= ../pg-frankenstein.txt 
+2020/08/30 18:30:24 Finish the map task, taskId= 2, then tell master
+2020/08/30 18:30:24 Mark the Map Task Completed in teller, TaskId= 2
+2020/08/30 18:30:24 Assign a task to map first time, taskId= 3
+2020/08/30 18:30:24 AskMapTask success, reply= {../pg-grimm.txt 3 true 10}
+2020/08/30 18:30:24 Start to do map task, taskId= 3, FileName= ../pg-grimm.txt 
+2020/08/30 18:30:24 Finish the map task, taskId= 1, then tell master
+2020/08/30 18:30:24 Mark the Map Task Completed in teller, TaskId= 1
+2020/08/30 18:30:24 Assign a task to map first time, taskId= 4
+2020/08/30 18:30:24 AskMapTask success, reply= {../pg-huckleberry_finn.txt 4 true 10}
+2020/08/30 18:30:24 Start to do map task, taskId= 4, FileName= ../pg-huckleberry_finn.txt 
+2020/08/30 18:30:24 Finish the map task, taskId= 6, then tell master
+2020/08/30 18:30:24 Mark the Map Task Completed in teller, TaskId= 6
+2020/08/30 18:30:24 Assign a task to map first time, taskId= 7
+2020/08/30 18:30:24 AskMapTask success, reply= {../pg-tom_sawyer.txt 7 true 10}
+2020/08/30 18:30:24 Start to do map task, taskId= 7, FileName= ../pg-tom_sawyer.txt 
+2020/08/30 18:30:25 Finish the map task, taskId= 7, then tell master
+2020/08/30 18:30:25 Mark the Map Task Completed in teller, TaskId= 7
+2020/08/30 18:30:25 Failed to assigned a task to map
+2020/08/30 18:30:25 Can not get map task, sleep 1 seconds
+2020/08/30 18:30:25 Finish the map task, taskId= 3, then tell master
+2020/08/30 18:30:25 Mark the Map Task Completed in teller, TaskId= 3
+2020/08/30 18:30:26 Failed to assigned a task to map
+2020/08/30 18:30:26 Can not get map task, sleep 1 seconds
+2020/08/30 18:30:26 Finish the map task, taskId= 4, then tell master
+2020/08/30 18:30:26 Mark the Map Task Completed in teller, TaskId= 4
+2020/08/30 18:30:26 Assign a task to reduce first time, taskId= 1
+2020/08/30 18:30:26 AskReduceTask success, reply= {mr-reduce-1 1 true}
+2020/08/30 18:30:26 Start to do reduce task, taskId= 1, FileName= mr-reduce-1
+2020/08/30 18:30:26 Can not open temp file, FileName= mr-reduce-1, err= open mr-reduce-1: no such file or directory
+2020/08/30 18:30:27 Assign a task to reduce first time, taskId= 0
+2020/08/30 18:30:27 AskReduceTask success, reply= {mr-reduce-0 0 true}
+2020/08/30 18:30:27 Start to do reduce task, taskId= 0, FileName= mr-reduce-0
+2020/08/30 18:30:27 Mark the Reduce Task Completed in teller, TaskId= 0
+2020/08/30 18:30:27 Assign a task to reduce first time, taskId= 4
+2020/08/30 18:30:27 AskReduceTask success, reply= {mr-reduce-4 4 true}
+2020/08/30 18:30:27 Start to do reduce task, taskId= 4, FileName= mr-reduce-4
+2020/08/30 18:30:27 Can not open temp file, FileName= mr-reduce-4, err= open mr-reduce-4: no such file or directory
+2020/08/30 18:30:31 Assign a task to reduce first time, taskId= 2
+2020/08/30 18:30:31 AskReduceTask success, reply= {mr-reduce-2 2 true}
+2020/08/30 18:30:31 Start to do reduce task, taskId= 2, FileName= mr-reduce-2
+2020/08/30 18:30:32 Mark the Reduce Task Completed in teller, TaskId= 2
+2020/08/30 18:30:32 Assign a task to reduce first time, taskId= 3
+2020/08/30 18:30:32 AskReduceTask success, reply= {mr-reduce-3 3 true}
+2020/08/30 18:30:32 Start to do reduce task, taskId= 3, FileName= mr-reduce-3
+2020/08/30 18:30:32 Mark the Reduce Task Completed in teller, TaskId= 3
+2020/08/30 18:30:32 Assign a task to reduce first time, taskId= 7
+2020/08/30 18:30:32 AskReduceTask success, reply= {mr-reduce-7 7 true}
+2020/08/30 18:30:32 Start to do reduce task, taskId= 7, FileName= mr-reduce-7
+2020/08/30 18:30:32 Mark the Reduce Task Completed in teller, TaskId= 7
+2020/08/30 18:30:32 Assign a task to reduce first time, taskId= 6
+2020/08/30 18:30:32 AskReduceTask success, reply= {mr-reduce-6 6 true}
+2020/08/30 18:30:32 Start to do reduce task, taskId= 6, FileName= mr-reduce-6
+2020/08/30 18:30:32 Mark the Reduce Task Completed in teller, TaskId= 6
+2020/08/30 18:30:32 Assign a task to reduce first time, taskId= 5
+2020/08/30 18:30:32 AskReduceTask success, reply= {mr-reduce-5 5 true}
+2020/08/30 18:30:32 Start to do reduce task, taskId= 5, FileName= mr-reduce-5
+2020/08/30 18:30:32 Mark the Reduce Task Completed in teller, TaskId= 5
+2020/08/30 18:30:32 Assign a task to reduce first time, taskId= 9
+2020/08/30 18:30:32 AskReduceTask success, reply= {mr-reduce-9 9 true}
+2020/08/30 18:30:32 Start to do reduce task, taskId= 9, FileName= mr-reduce-9
+2020/08/30 18:30:32 Mark the Reduce Task Completed in teller, TaskId= 9
+2020/08/30 18:30:32 Assign a task to reduce first time, taskId= 8
+2020/08/30 18:30:32 AskReduceTask success, reply= {mr-reduce-8 8 true}
+2020/08/30 18:30:32 Start to do reduce task, taskId= 8, FileName= mr-reduce-8
+2020/08/30 18:30:32 Mark the Reduce Task Completed in teller, TaskId= 8
+2020/08/30 18:30:32 Failed to assigned a task to reduce
+2020/08/30 18:30:32 Failed to assign task to reduce
+2020/08/30 18:30:32 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:30:33 Failed to assigned a task to reduce
+2020/08/30 18:30:33 Failed to assign task to reduce
+2020/08/30 18:30:33 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:30:34 Failed to assigned a task to reduce
+2020/08/30 18:30:34 Failed to assign task to reduce
+2020/08/30 18:30:34 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:30:35 Failed to assigned a task to reduce
+2020/08/30 18:30:35 Failed to assign task to reduce
+2020/08/30 18:30:35 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:30:36 Assign a task to reduce after timeout, taskId= 1
+2020/08/30 18:30:36 AskReduceTask success, reply= {mr-reduce-1 1 true}
+2020/08/30 18:30:36 Start to do reduce task, taskId= 1, FileName= mr-reduce-1
+2020/08/30 18:30:36 Mark the Reduce Task Completed in teller, TaskId= 1
+2020/08/30 18:30:36 Failed to assigned a task to reduce
+2020/08/30 18:30:36 Failed to assign task to reduce
+2020/08/30 18:30:36 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:30:37 Assign a task to reduce after timeout, taskId= 4
+2020/08/30 18:30:37 AskReduceTask success, reply= {mr-reduce-4 4 true}
+2020/08/30 18:30:37 Start to do reduce task, taskId= 4, FileName= mr-reduce-4
+2020/08/30 18:30:37 Mark the Reduce Task Completed in teller, TaskId= 4
+2020/08/30 18:30:39 rpc.Register: method "Done" has 1 input parameters; needs exactly three
+2020/08/30 18:30:40 Assign a task to map first time, taskId= 1
+2020/08/30 18:30:40 Assign a task to map first time, taskId= 0
+2020/08/30 18:30:40 AskMapTask success, reply= {../pg-dorian_gray.txt 1 true 10}
+2020/08/30 18:30:40 Start to do map task, taskId= 1, FileName= ../pg-dorian_gray.txt 
+2020/08/30 18:30:40 AskMapTask success, reply= {../pg-being_ernest.txt 0 true 10}
+2020/08/30 18:30:40 Start to do map task, taskId= 0, FileName= ../pg-being_ernest.txt 
+2020/08/30 18:30:40 Finish the map task, taskId= 0, then tell master
+2020/08/30 18:30:40 Mark the Map Task Completed in teller, TaskId= 0
+2020/08/30 18:30:40 Assign a task to map first time, taskId= 3
+2020/08/30 18:30:40 AskMapTask success, reply= {../pg-grimm.txt 3 true 10}
+2020/08/30 18:30:40 Start to do map task, taskId= 3, FileName= ../pg-grimm.txt 
+2020/08/30 18:30:40 Finish the map task, taskId= 1, then tell master
+2020/08/30 18:30:40 Mark the Map Task Completed in teller, TaskId= 1
+2020/08/30 18:30:41 Assign a task to map first time, taskId= 7
+2020/08/30 18:30:41 AskMapTask success, reply= {../pg-tom_sawyer.txt 7 true 10}
+2020/08/30 18:30:41 Start to do map task, taskId= 7, FileName= ../pg-tom_sawyer.txt 
+2020/08/30 18:30:41 Finish the map task, taskId= 3, then tell master
+2020/08/30 18:30:41 Mark the Map Task Completed in teller, TaskId= 3
+2020/08/30 18:30:41 Assign a task to map first time, taskId= 4
+2020/08/30 18:30:41 AskMapTask success, reply= {../pg-huckleberry_finn.txt 4 true 10}
+2020/08/30 18:30:41 Start to do map task, taskId= 4, FileName= ../pg-huckleberry_finn.txt 
+2020/08/30 18:30:41 Finish the map task, taskId= 7, then tell master
+2020/08/30 18:30:41 Mark the Map Task Completed in teller, TaskId= 7
+2020/08/30 18:30:41 Assign a task to map first time, taskId= 2
+2020/08/30 18:30:41 AskMapTask success, reply= {../pg-frankenstein.txt 2 true 10}
+2020/08/30 18:30:41 Start to do map task, taskId= 2, FileName= ../pg-frankenstein.txt 
+2020/08/30 18:30:41 Finish the map task, taskId= 4, then tell master
+2020/08/30 18:30:41 Mark the Map Task Completed in teller, TaskId= 4
+2020/08/30 18:30:41 Assign a task to map first time, taskId= 5
+2020/08/30 18:30:41 AskMapTask success, reply= {../pg-metamorphosis.txt 5 true 10}
+2020/08/30 18:30:41 Start to do map task, taskId= 5, FileName= ../pg-metamorphosis.txt 
+2020/08/30 18:30:41 Finish the map task, taskId= 5, then tell master
+2020/08/30 18:30:41 Mark the Map Task Completed in teller, TaskId= 5
+2020/08/30 18:30:41 Assign a task to map first time, taskId= 6
+2020/08/30 18:30:41 AskMapTask success, reply= {../pg-sherlock_holmes.txt 6 true 10}
+2020/08/30 18:30:41 Start to do map task, taskId= 6, FileName= ../pg-sherlock_holmes.txt 
+2020/08/30 18:30:41 Finish the map task, taskId= 2, then tell master
+2020/08/30 18:30:41 Mark the Map Task Completed in teller, TaskId= 2
+2020/08/30 18:30:41 Failed to assigned a task to map
+2020/08/30 18:30:41 Can not get map task, sleep 1 seconds
+2020/08/30 18:30:41 Finish the map task, taskId= 6, then tell master
+2020/08/30 18:30:41 Mark the Map Task Completed in teller, TaskId= 6
+2020/08/30 18:30:41 Assign a task to reduce first time, taskId= 0
+2020/08/30 18:30:41 AskReduceTask success, reply= {mr-reduce-0 0 true}
+2020/08/30 18:30:41 Start to do reduce task, taskId= 0, FileName= mr-reduce-0
+2020/08/30 18:30:41 Mark the Reduce Task Completed in teller, TaskId= 0
+2020/08/30 18:30:41 Assign a task to reduce first time, taskId= 8
+2020/08/30 18:30:41 AskReduceTask success, reply= {mr-reduce-8 8 true}
+2020/08/30 18:30:41 Start to do reduce task, taskId= 8, FileName= mr-reduce-8
+2020/08/30 18:30:41 Mark the Reduce Task Completed in teller, TaskId= 8
+2020/08/30 18:30:41 Assign a task to reduce first time, taskId= 7
+2020/08/30 18:30:41 AskReduceTask success, reply= {mr-reduce-7 7 true}
+2020/08/30 18:30:41 Start to do reduce task, taskId= 7, FileName= mr-reduce-7
+2020/08/30 18:30:42 Mark the Reduce Task Completed in teller, TaskId= 7
+2020/08/30 18:30:42 Assign a task to reduce first time, taskId= 1
+2020/08/30 18:30:42 AskReduceTask success, reply= {mr-reduce-1 1 true}
+2020/08/30 18:30:42 Start to do reduce task, taskId= 1, FileName= mr-reduce-1
+2020/08/30 18:30:42 Mark the Reduce Task Completed in teller, TaskId= 1
+2020/08/30 18:30:42 Assign a task to reduce first time, taskId= 6
+2020/08/30 18:30:42 AskReduceTask success, reply= {mr-reduce-6 6 true}
+2020/08/30 18:30:42 Start to do reduce task, taskId= 6, FileName= mr-reduce-6
+2020/08/30 18:30:42 Mark the Reduce Task Completed in teller, TaskId= 6
+2020/08/30 18:30:42 Assign a task to reduce first time, taskId= 9
+2020/08/30 18:30:42 AskReduceTask success, reply= {mr-reduce-9 9 true}
+2020/08/30 18:30:42 Start to do reduce task, taskId= 9, FileName= mr-reduce-9
+2020/08/30 18:30:42 Mark the Reduce Task Completed in teller, TaskId= 9
+2020/08/30 18:30:42 Assign a task to reduce first time, taskId= 3
+2020/08/30 18:30:42 AskReduceTask success, reply= {mr-reduce-3 3 true}
+2020/08/30 18:30:42 Start to do reduce task, taskId= 3, FileName= mr-reduce-3
+2020/08/30 18:30:42 Mark the Reduce Task Completed in teller, TaskId= 3
+2020/08/30 18:30:42 Assign a task to reduce first time, taskId= 2
+2020/08/30 18:30:42 AskReduceTask success, reply= {mr-reduce-2 2 true}
+2020/08/30 18:30:42 Start to do reduce task, taskId= 2, FileName= mr-reduce-2
+2020/08/30 18:30:42 Assign a task to reduce first time, taskId= 5
+2020/08/30 18:30:42 AskReduceTask success, reply= {mr-reduce-5 5 true}
+2020/08/30 18:30:42 Start to do reduce task, taskId= 5, FileName= mr-reduce-5
+2020/08/30 18:30:42 Mark the Reduce Task Completed in teller, TaskId= 2
+2020/08/30 18:30:42 Assign a task to reduce first time, taskId= 4
+2020/08/30 18:30:42 AskReduceTask success, reply= {mr-reduce-4 4 true}
+2020/08/30 18:30:42 Start to do reduce task, taskId= 4, FileName= mr-reduce-4
+2020/08/30 18:30:42 Mark the Reduce Task Completed in teller, TaskId= 5
+2020/08/30 18:30:42 Failed to assigned a task to reduce
+2020/08/30 18:30:42 Failed to assign task to reduce
+2020/08/30 18:30:42 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:30:42 Mark the Reduce Task Completed in teller, TaskId= 4
+2020/08/30 18:30:43 rpc.Register: method "Done" has 1 input parameters; needs exactly three
+2020/08/30 18:30:44 Assign a task to map first time, taskId= 2
+2020/08/30 18:30:44 Assign a task to map first time, taskId= 3
+2020/08/30 18:30:44 AskMapTask success, reply= {../pg-frankenstein.txt 2 true 10}
+2020/08/30 18:30:44 Start to do map task, taskId= 2, FileName= ../pg-frankenstein.txt 
+2020/08/30 18:30:44 AskMapTask success, reply= {../pg-grimm.txt 3 true 10}
+2020/08/30 18:30:44 Start to do map task, taskId= 3, FileName= ../pg-grimm.txt 
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-2-0
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-2-1
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-2-2
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-2-3
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-2-4
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-3-0
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-2-5
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-3-1
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-2-6
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-3-2
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-2-7
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-3-3
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-2-8
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-3-4
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-2-9
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-3-5
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-3-6
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-3-7
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-3-8
+2020/08/30 18:30:44 Delete old tempFile, FileName= mr-3-9
+2020/08/30 18:30:45 Finish the map task, taskId= 2, then tell master
+2020/08/30 18:30:45 Mark the Map Task Completed in teller, TaskId= 2
+2020/08/30 18:30:45 Finish the map task, taskId= 3, then tell master
+2020/08/30 18:30:45 Assign a task to map first time, taskId= 4
+2020/08/30 18:30:45 AskMapTask success, reply= {../pg-huckleberry_finn.txt 4 true 10}
+2020/08/30 18:30:45 Start to do map task, taskId= 4, FileName= ../pg-huckleberry_finn.txt 
+2020/08/30 18:30:45 Mark the Map Task Completed in teller, TaskId= 3
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-4-0
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-4-1
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-4-2
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-4-3
+2020/08/30 18:30:45 Assign a task to map first time, taskId= 5
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-4-4
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-4-5
+2020/08/30 18:30:45 AskMapTask success, reply= {../pg-metamorphosis.txt 5 true 10}
+2020/08/30 18:30:45 Start to do map task, taskId= 5, FileName= ../pg-metamorphosis.txt 
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-4-6
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-5-0
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-4-7
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-5-1
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-4-8
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-5-2
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-4-9
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-5-3
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-5-4
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-5-5
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-5-6
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-5-7
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-5-8
+2020/08/30 18:30:45 Delete old tempFile, FileName= mr-5-9
+2020/08/30 18:30:46 Finish the map task, taskId= 4, then tell master
+2020/08/30 18:30:46 Finish the map task, taskId= 5, then tell master
+2020/08/30 18:30:46 Mark the Map Task Completed in teller, TaskId= 4
+2020/08/30 18:30:46 Mark the Map Task Completed in teller, TaskId= 5
+2020/08/30 18:30:46 Assign a task to map first time, taskId= 6
+2020/08/30 18:30:46 Assign a task to map first time, taskId= 7
+2020/08/30 18:30:46 AskMapTask success, reply= {../pg-tom_sawyer.txt 7 true 10}
+2020/08/30 18:30:46 Start to do map task, taskId= 7, FileName= ../pg-tom_sawyer.txt 
+2020/08/30 18:30:46 AskMapTask success, reply= {../pg-sherlock_holmes.txt 6 true 10}
+2020/08/30 18:30:46 Start to do map task, taskId= 6, FileName= ../pg-sherlock_holmes.txt 
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-7-0
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-7-1
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-7-2
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-6-0
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-7-3
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-6-1
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-7-4
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-6-2
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-7-5
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-6-3
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-7-6
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-6-4
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-7-7
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-6-5
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-6-6
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-7-8
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-6-7
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-7-9
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-6-8
+2020/08/30 18:30:46 Delete old tempFile, FileName= mr-6-9
+2020/08/30 18:30:47 Finish the map task, taskId= 6, then tell master
+2020/08/30 18:30:47 Finish the map task, taskId= 7, then tell master
+2020/08/30 18:30:47 Mark the Map Task Completed in teller, TaskId= 6
+2020/08/30 18:30:47 Mark the Map Task Completed in teller, TaskId= 7
+2020/08/30 18:30:47 Assign a task to map first time, taskId= 0
+2020/08/30 18:30:48 Assign a task to map first time, taskId= 1
+2020/08/30 18:30:48 AskMapTask success, reply= {../pg-being_ernest.txt 0 true 10}
+2020/08/30 18:30:48 Start to do map task, taskId= 0, FileName= ../pg-being_ernest.txt 
+2020/08/30 18:30:48 AskMapTask success, reply= {../pg-dorian_gray.txt 1 true 10}
+2020/08/30 18:30:48 Start to do map task, taskId= 1, FileName= ../pg-dorian_gray.txt 
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-0-0
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-1-0
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-0-1
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-1-1
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-0-2
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-1-2
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-0-3
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-1-3
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-0-4
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-1-4
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-0-5
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-1-5
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-0-6
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-1-6
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-0-7
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-1-7
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-0-8
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-1-8
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-0-9
+2020/08/30 18:30:48 Delete old tempFile, FileName= mr-1-9
+2020/08/30 18:30:49 Finish the map task, taskId= 1, then tell master
+2020/08/30 18:30:49 Finish the map task, taskId= 0, then tell master
+2020/08/30 18:30:49 Mark the Map Task Completed in teller, TaskId= 1
+2020/08/30 18:30:49 Mark the Map Task Completed in teller, TaskId= 0
+2020/08/30 18:30:49 Assign a task to reduce first time, taskId= 1
+2020/08/30 18:30:49 AskReduceTask success, reply= {mr-reduce-1 1 true}
+2020/08/30 18:30:49 Start to do reduce task, taskId= 1, FileName= mr-reduce-1
+2020/08/30 18:30:49 Mark the Reduce Task Completed in teller, TaskId= 1
+2020/08/30 18:30:49 Assign a task to reduce first time, taskId= 5
+2020/08/30 18:30:49 AskReduceTask success, reply= {mr-reduce-5 5 true}
+2020/08/30 18:30:49 Start to do reduce task, taskId= 5, FileName= mr-reduce-5
+2020/08/30 18:30:49 Assign a task to reduce first time, taskId= 4
+2020/08/30 18:30:49 AskReduceTask success, reply= {mr-reduce-4 4 true}
+2020/08/30 18:30:49 Start to do reduce task, taskId= 4, FileName= mr-reduce-4
+2020/08/30 18:30:49 Mark the Reduce Task Completed in teller, TaskId= 5
+2020/08/30 18:30:49 Mark the Reduce Task Completed in teller, TaskId= 4
+2020/08/30 18:30:49 Assign a task to reduce first time, taskId= 7
+2020/08/30 18:30:49 AskReduceTask success, reply= {mr-reduce-7 7 true}
+2020/08/30 18:30:49 Start to do reduce task, taskId= 7, FileName= mr-reduce-7
+2020/08/30 18:30:49 Assign a task to reduce first time, taskId= 6
+2020/08/30 18:30:49 Mark the Reduce Task Completed in teller, TaskId= 7
+2020/08/30 18:30:49 AskReduceTask success, reply= {mr-reduce-6 6 true}
+2020/08/30 18:30:49 Start to do reduce task, taskId= 6, FileName= mr-reduce-6
+2020/08/30 18:30:49 Mark the Reduce Task Completed in teller, TaskId= 6
+2020/08/30 18:30:49 Assign a task to reduce first time, taskId= 9
+2020/08/30 18:30:49 AskReduceTask success, reply= {mr-reduce-9 9 true}
+2020/08/30 18:30:49 Start to do reduce task, taskId= 9, FileName= mr-reduce-9
+2020/08/30 18:30:49 Assign a task to reduce first time, taskId= 2
+2020/08/30 18:30:49 Mark the Reduce Task Completed in teller, TaskId= 9
+2020/08/30 18:30:49 AskReduceTask success, reply= {mr-reduce-2 2 true}
+2020/08/30 18:30:49 Start to do reduce task, taskId= 2, FileName= mr-reduce-2
+2020/08/30 18:30:49 Mark the Reduce Task Completed in teller, TaskId= 2
+2020/08/30 18:30:49 Assign a task to reduce first time, taskId= 8
+2020/08/30 18:30:49 AskReduceTask success, reply= {mr-reduce-8 8 true}
+2020/08/30 18:30:49 Start to do reduce task, taskId= 8, FileName= mr-reduce-8
+2020/08/30 18:30:49 Mark the Reduce Task Completed in teller, TaskId= 8
+2020/08/30 18:30:49 Assign a task to reduce first time, taskId= 0
+2020/08/30 18:30:49 AskReduceTask success, reply= {mr-reduce-0 0 true}
+2020/08/30 18:30:49 Start to do reduce task, taskId= 0, FileName= mr-reduce-0
+2020/08/30 18:30:49 Mark the Reduce Task Completed in teller, TaskId= 0
+2020/08/30 18:30:49 Assign a task to reduce first time, taskId= 3
+2020/08/30 18:30:49 AskReduceTask success, reply= {mr-reduce-3 3 true}
+2020/08/30 18:30:49 Start to do reduce task, taskId= 3, FileName= mr-reduce-3
+2020/08/30 18:30:49 Mark the Reduce Task Completed in teller, TaskId= 3
+2020/08/30 18:30:49 Failed to assigned a task to reduce
+2020/08/30 18:30:49 Failed to assign task to reduce
+2020/08/30 18:30:49 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:30:50 rpc.Register: method "Done" has 1 input parameters; needs exactly three
+2020/08/30 18:30:51 Assign a task to map first time, taskId= 7
+2020/08/30 18:30:51 Assign a task to map first time, taskId= 4
+2020/08/30 18:30:51 AskMapTask success, reply= {../pg-huckleberry_finn.txt 4 true 10}
+2020/08/30 18:30:51 Start to do map task, taskId= 4, FileName= ../pg-huckleberry_finn.txt 
+2020/08/30 18:30:51 AskMapTask success, reply= {../pg-tom_sawyer.txt 7 true 10}
+2020/08/30 18:30:51 Start to do map task, taskId= 7, FileName= ../pg-tom_sawyer.txt 
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-7-0
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-7-1
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-7-2
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-7-3
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-7-4
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-7-5
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-7-6
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-4-0
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-7-7
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-4-1
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-7-8
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-4-2
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-7-9
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-4-3
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-4-4
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-4-5
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-4-6
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-4-7
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-4-8
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-4-9
+2020/08/30 18:30:51 Finish the map task, taskId= 7, then tell master
+2020/08/30 18:30:51 Mark the Map Task Completed in teller, TaskId= 7
+2020/08/30 18:30:51 Finish the map task, taskId= 4, then tell master
+2020/08/30 18:30:51 Mark the Map Task Completed in teller, TaskId= 4
+2020/08/30 18:30:51 Assign a task to map first time, taskId= 5
+2020/08/30 18:30:51 AskMapTask success, reply= {../pg-metamorphosis.txt 5 true 10}
+2020/08/30 18:30:51 Start to do map task, taskId= 5, FileName= ../pg-metamorphosis.txt 
+2020/08/30 18:30:51 Assign a task to map first time, taskId= 6
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-5-0
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-5-1
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-5-2
+2020/08/30 18:30:51 AskMapTask success, reply= {../pg-sherlock_holmes.txt 6 true 10}
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-5-3
+2020/08/30 18:30:51 Start to do map task, taskId= 6, FileName= ../pg-sherlock_holmes.txt 
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-5-4
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-5-5
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-5-6
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-5-7
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-5-8
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-5-9
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-6-0
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-6-1
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-6-2
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-6-3
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-6-4
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-6-5
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-6-6
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-6-7
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-6-8
+2020/08/30 18:30:51 Delete old tempFile, FileName= mr-6-9
+2020/08/30 18:30:51 Finish the map task, taskId= 5, then tell master
+2020/08/30 18:30:51 Mark the Map Task Completed in teller, TaskId= 5
+2020/08/30 18:30:51 Finish the map task, taskId= 6, then tell master
+2020/08/30 18:30:51 Mark the Map Task Completed in teller, TaskId= 6
+2020/08/30 18:30:51 Assign a task to map first time, taskId= 3
+2020/08/30 18:30:51 AskMapTask success, reply= {../pg-grimm.txt 3 true 10}
+2020/08/30 18:30:51 Start to do map task, taskId= 3, FileName= ../pg-grimm.txt 
+2020/08/30 18:30:51 Assign a task to map first time, taskId= 0
+2020/08/30 18:30:52 AskMapTask success, reply= {../pg-being_ernest.txt 0 true 10}
+2020/08/30 18:30:52 Start to do map task, taskId= 0, FileName= ../pg-being_ernest.txt 
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-0-0
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-0-1
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-0-2
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-0-3
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-0-4
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-0-5
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-0-6
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-0-7
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-0-8
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-0-9
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-3-0
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-3-1
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-3-2
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-3-3
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-3-4
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-3-5
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-3-6
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-3-7
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-3-8
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-3-9
+2020/08/30 18:30:52 Finish the map task, taskId= 0, then tell master
+2020/08/30 18:30:52 Mark the Map Task Completed in teller, TaskId= 0
+2020/08/30 18:30:52 Finish the map task, taskId= 3, then tell master
+2020/08/30 18:30:52 Mark the Map Task Completed in teller, TaskId= 3
+2020/08/30 18:30:52 Assign a task to map first time, taskId= 1
+2020/08/30 18:30:52 AskMapTask success, reply= {../pg-dorian_gray.txt 1 true 10}
+2020/08/30 18:30:52 Start to do map task, taskId= 1, FileName= ../pg-dorian_gray.txt 
+2020/08/30 18:30:52 Assign a task to map first time, taskId= 2
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-1-0
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-1-1
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-1-2
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-1-3
+2020/08/30 18:30:52 AskMapTask success, reply= {../pg-frankenstein.txt 2 true 10}
+2020/08/30 18:30:52 Start to do map task, taskId= 2, FileName= ../pg-frankenstein.txt 
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-1-4
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-1-5
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-1-6
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-1-7
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-1-8
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-1-9
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-2-0
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-2-1
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-2-2
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-2-3
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-2-4
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-2-5
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-2-6
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-2-7
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-2-8
+2020/08/30 18:30:52 Delete old tempFile, FileName= mr-2-9
+2020/08/30 18:30:52 Finish the map task, taskId= 1, then tell master
+2020/08/30 18:30:52 Mark the Map Task Completed in teller, TaskId= 1
+2020/08/30 18:30:52 Finish the map task, taskId= 2, then tell master
+2020/08/30 18:30:52 Mark the Map Task Completed in teller, TaskId= 2
+2020/08/30 18:30:52 Failed to assigned a task to map
+2020/08/30 18:30:52 Can not get map task, sleep 1 seconds
+2020/08/30 18:30:52 Assign a task to reduce first time, taskId= 7
+2020/08/30 18:30:52 AskReduceTask success, reply= {mr-reduce-7 7 true}
+2020/08/30 18:30:52 Start to do reduce task, taskId= 7, FileName= mr-reduce-7
+2020/08/30 18:30:52 Mark the Reduce Task Completed in teller, TaskId= 7
+2020/08/30 18:30:52 Assign a task to reduce first time, taskId= 0
+2020/08/30 18:30:52 AskReduceTask success, reply= {mr-reduce-0 0 true}
+2020/08/30 18:30:52 Start to do reduce task, taskId= 0, FileName= mr-reduce-0
+2020/08/30 18:30:53 Assign a task to reduce first time, taskId= 3
+2020/08/30 18:30:53 AskReduceTask success, reply= {mr-reduce-3 3 true}
+2020/08/30 18:30:53 Start to do reduce task, taskId= 3, FileName= mr-reduce-3
+2020/08/30 18:30:53 Mark the Reduce Task Completed in teller, TaskId= 0
+2020/08/30 18:30:53 Assign a task to reduce first time, taskId= 4
+2020/08/30 18:30:53 AskReduceTask success, reply= {mr-reduce-4 4 true}
+2020/08/30 18:30:53 Start to do reduce task, taskId= 4, FileName= mr-reduce-4
+2020/08/30 18:30:55 Mark the Reduce Task Completed in teller, TaskId= 3
+2020/08/30 18:30:55 Assign a task to reduce first time, taskId= 2
+2020/08/30 18:30:55 AskReduceTask success, reply= {mr-reduce-2 2 true}
+2020/08/30 18:30:55 Start to do reduce task, taskId= 2, FileName= mr-reduce-2
+2020/08/30 18:30:55 Mark the Reduce Task Completed in teller, TaskId= 4
+2020/08/30 18:30:55 Assign a task to reduce first time, taskId= 5
+2020/08/30 18:30:55 AskReduceTask success, reply= {mr-reduce-5 5 true}
+2020/08/30 18:30:55 Start to do reduce task, taskId= 5, FileName= mr-reduce-5
+2020/08/30 18:30:56 Mark the Reduce Task Completed in teller, TaskId= 2
+2020/08/30 18:30:56 Assign a task to reduce first time, taskId= 1
+2020/08/30 18:30:56 AskReduceTask success, reply= {mr-reduce-1 1 true}
+2020/08/30 18:30:56 Start to do reduce task, taskId= 1, FileName= mr-reduce-1
+2020/08/30 18:30:56 Mark the Reduce Task Completed in teller, TaskId= 5
+2020/08/30 18:30:56 Assign a task to reduce first time, taskId= 8
+2020/08/30 18:30:56 AskReduceTask success, reply= {mr-reduce-8 8 true}
+2020/08/30 18:30:56 Start to do reduce task, taskId= 8, FileName= mr-reduce-8
+2020/08/30 18:30:56 Mark the Reduce Task Completed in teller, TaskId= 8
+2020/08/30 18:30:56 Assign a task to reduce first time, taskId= 9
+2020/08/30 18:30:56 AskReduceTask success, reply= {mr-reduce-9 9 true}
+2020/08/30 18:30:56 Start to do reduce task, taskId= 9, FileName= mr-reduce-9
+2020/08/30 18:30:57 Mark the Reduce Task Completed in teller, TaskId= 1
+2020/08/30 18:30:57 Assign a task to reduce first time, taskId= 6
+2020/08/30 18:30:57 AskReduceTask success, reply= {mr-reduce-6 6 true}
+2020/08/30 18:30:57 Start to do reduce task, taskId= 6, FileName= mr-reduce-6
+2020/08/30 18:30:57 Mark the Reduce Task Completed in teller, TaskId= 9
+2020/08/30 18:30:57 Failed to assigned a task to reduce
+2020/08/30 18:30:57 Failed to assign task to reduce
+2020/08/30 18:30:57 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:30:58 Mark the Reduce Task Completed in teller, TaskId= 6
+2020/08/30 18:31:00 rpc.Register: method "Done" has 1 input parameters; needs exactly three
+2020/08/30 18:31:01 Assign a task to map first time, taskId= 4
+2020/08/30 18:31:01 AskMapTask success, reply= {../pg-huckleberry_finn.txt 4 true 10}
+2020/08/30 18:31:01 Start to do map task, taskId= 4, FileName= ../pg-huckleberry_finn.txt 
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-4-0
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-4-1
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-4-2
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-4-3
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-4-4
+2020/08/30 18:31:01 Assign a task to map first time, taskId= 7
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-4-5
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-4-6
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-4-7
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-4-8
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-4-9
+2020/08/30 18:31:01 AskMapTask success, reply= {../pg-tom_sawyer.txt 7 true 10}
+2020/08/30 18:31:01 Assign a task to map first time, taskId= 5
+2020/08/30 18:31:01 Start to do map task, taskId= 7, FileName= ../pg-tom_sawyer.txt 
+2020/08/30 18:31:01 AskMapTask success, reply= {../pg-metamorphosis.txt 5 true 10}
+2020/08/30 18:31:01 Start to do map task, taskId= 5, FileName= ../pg-metamorphosis.txt 
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-7-0
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-7-1
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-7-2
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-5-0
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-7-3
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-5-1
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-7-4
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-5-2
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-7-5
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-5-3
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-7-6
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-5-4
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-7-7
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-7-8
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-5-5
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-7-9
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-5-6
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-5-7
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-5-8
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-5-9
+2020/08/30 18:31:01 Assign a task to map first time, taskId= 6
+2020/08/30 18:31:01 AskMapTask success, reply= {../pg-sherlock_holmes.txt 6 true 10}
+2020/08/30 18:31:01 Start to do map task, taskId= 6, FileName= ../pg-sherlock_holmes.txt 
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-6-0
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-6-1
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-6-2
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-6-3
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-6-4
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-6-5
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-6-6
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-6-7
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-6-8
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-6-9
+2020/08/30 18:31:01 Finish the map task, taskId= 6, then tell master
+2020/08/30 18:31:01 Mark the Map Task Completed in teller, TaskId= 6
+2020/08/30 18:31:01 Assign a task to map first time, taskId= 0
+2020/08/30 18:31:01 AskMapTask success, reply= {../pg-being_ernest.txt 0 true 10}
+2020/08/30 18:31:01 Start to do map task, taskId= 0, FileName= ../pg-being_ernest.txt 
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-0-0
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-0-1
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-0-2
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-0-3
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-0-4
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-0-5
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-0-6
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-0-7
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-0-8
+2020/08/30 18:31:01 Delete old tempFile, FileName= mr-0-9
+2020/08/30 18:31:02 Finish the map task, taskId= 7, then tell master
+2020/08/30 18:31:02 Mark the Map Task Completed in teller, TaskId= 7
+2020/08/30 18:31:02 Assign a task to map first time, taskId= 1
+2020/08/30 18:31:02 AskMapTask success, reply= {../pg-dorian_gray.txt 1 true 10}
+2020/08/30 18:31:02 Start to do map task, taskId= 1, FileName= ../pg-dorian_gray.txt 
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-1-0
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-1-1
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-1-2
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-1-3
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-1-4
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-1-5
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-1-6
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-1-7
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-1-8
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-1-9
+2020/08/30 18:31:02 Finish the map task, taskId= 1, then tell master
+2020/08/30 18:31:02 Mark the Map Task Completed in teller, TaskId= 1
+2020/08/30 18:31:02 Assign a task to map first time, taskId= 2
+2020/08/30 18:31:02 AskMapTask success, reply= {../pg-frankenstein.txt 2 true 10}
+2020/08/30 18:31:02 Start to do map task, taskId= 2, FileName= ../pg-frankenstein.txt 
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-2-0
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-2-1
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-2-2
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-2-3
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-2-4
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-2-5
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-2-6
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-2-7
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-2-8
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-2-9
+2020/08/30 18:31:02 Assign a task to map first time, taskId= 3
+2020/08/30 18:31:02 AskMapTask success, reply= {../pg-grimm.txt 3 true 10}
+2020/08/30 18:31:02 Start to do map task, taskId= 3, FileName= ../pg-grimm.txt 
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-3-0
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-3-1
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-3-2
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-3-3
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-3-4
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-3-5
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-3-6
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-3-7
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-3-8
+2020/08/30 18:31:02 Delete old tempFile, FileName= mr-3-9
+2020/08/30 18:31:02 Finish the map task, taskId= 4, then tell master
+2020/08/30 18:31:02 Mark the Map Task Completed in teller, TaskId= 4
+2020/08/30 18:31:02 Failed to assigned a task to map
+2020/08/30 18:31:02 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:03 Failed to assigned a task to map
+2020/08/30 18:31:03 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:03 Failed to assigned a task to map
+2020/08/30 18:31:03 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:03 Failed to assigned a task to map
+2020/08/30 18:31:03 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:04 Failed to assigned a task to map
+2020/08/30 18:31:04 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:04 Failed to assigned a task to map
+2020/08/30 18:31:04 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:04 Failed to assigned a task to map
+2020/08/30 18:31:04 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:05 Failed to assigned a task to map
+2020/08/30 18:31:05 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:05 Failed to assigned a task to map
+2020/08/30 18:31:05 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:05 Failed to assigned a task to map
+2020/08/30 18:31:05 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:06 Failed to assigned a task to map
+2020/08/30 18:31:06 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:06 Failed to assigned a task to map
+2020/08/30 18:31:06 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:06 Failed to assigned a task to map
+2020/08/30 18:31:06 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:07 Failed to assigned a task to map
+2020/08/30 18:31:07 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:07 Failed to assigned a task to map
+2020/08/30 18:31:07 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:07 Failed to assigned a task to map
+2020/08/30 18:31:07 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:08 Failed to assigned a task to map
+2020/08/30 18:31:08 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:08 Failed to assigned a task to map
+2020/08/30 18:31:08 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:08 Failed to assigned a task to map
+2020/08/30 18:31:08 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:09 Failed to assigned a task to map
+2020/08/30 18:31:09 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:09 Failed to assigned a task to map
+2020/08/30 18:31:09 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:09 Failed to assigned a task to map
+2020/08/30 18:31:09 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:10 Failed to assigned a task to map
+2020/08/30 18:31:10 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:10 Failed to assigned a task to map
+2020/08/30 18:31:10 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:10 Finish the map task, taskId= 5, then tell master
+2020/08/30 18:31:10 Mark the Map Task Completed in teller, TaskId= 5
+2020/08/30 18:31:10 Failed to assigned a task to map
+2020/08/30 18:31:10 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:10 Failed to assigned a task to map
+2020/08/30 18:31:10 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:11 Assign a task to map after timeout, taskId= 0
+2020/08/30 18:31:11 AskMapTask success, reply= {../pg-being_ernest.txt 0 true 10}
+2020/08/30 18:31:11 Start to do map task, taskId= 0, FileName= ../pg-being_ernest.txt 
+2020/08/30 18:31:11 Failed to assigned a task to map
+2020/08/30 18:31:11 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:11 Failed to assigned a task to map
+2020/08/30 18:31:11 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:11 Failed to assigned a task to map
+2020/08/30 18:31:11 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:12 Assign a task to map after timeout, taskId= 2
+2020/08/30 18:31:12 Assign a task to map after timeout, taskId= 3
+2020/08/30 18:31:12 AskMapTask success, reply= {../pg-grimm.txt 3 true 10}
+2020/08/30 18:31:12 Start to do map task, taskId= 3, FileName= ../pg-grimm.txt 
+2020/08/30 18:31:12 Failed to assigned a task to map
+2020/08/30 18:31:12 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:12 Failed to assigned a task to map
+2020/08/30 18:31:12 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:12 Failed to assigned a task to map
+2020/08/30 18:31:12 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:13 Failed to assigned a task to map
+2020/08/30 18:31:13 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:13 Failed to assigned a task to map
+2020/08/30 18:31:13 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:13 Failed to assigned a task to map
+2020/08/30 18:31:13 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:13 Failed to assigned a task to map
+2020/08/30 18:31:13 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:14 Failed to assigned a task to map
+2020/08/30 18:31:14 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:14 Failed to assigned a task to map
+2020/08/30 18:31:14 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:14 Failed to assigned a task to map
+2020/08/30 18:31:14 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:14 Failed to assigned a task to map
+2020/08/30 18:31:14 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:15 Failed to assigned a task to map
+2020/08/30 18:31:15 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:15 Failed to assigned a task to map
+2020/08/30 18:31:15 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:15 Failed to assigned a task to map
+2020/08/30 18:31:15 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:15 Failed to assigned a task to map
+2020/08/30 18:31:15 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:16 Failed to assigned a task to map
+2020/08/30 18:31:16 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:16 Failed to assigned a task to map
+2020/08/30 18:31:16 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:16 Failed to assigned a task to map
+2020/08/30 18:31:16 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:16 Failed to assigned a task to map
+2020/08/30 18:31:16 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:17 Failed to assigned a task to map
+2020/08/30 18:31:17 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:17 Failed to assigned a task to map
+2020/08/30 18:31:17 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:17 Failed to assigned a task to map
+2020/08/30 18:31:17 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:17 Failed to assigned a task to map
+2020/08/30 18:31:17 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:18 Failed to assigned a task to map
+2020/08/30 18:31:18 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:18 Failed to assigned a task to map
+2020/08/30 18:31:18 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:18 Failed to assigned a task to map
+2020/08/30 18:31:18 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:18 Failed to assigned a task to map
+2020/08/30 18:31:18 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:19 Failed to assigned a task to map
+2020/08/30 18:31:19 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:19 Failed to assigned a task to map
+2020/08/30 18:31:19 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:19 Failed to assigned a task to map
+2020/08/30 18:31:19 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:19 Failed to assigned a task to map
+2020/08/30 18:31:19 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:20 Failed to assigned a task to map
+2020/08/30 18:31:20 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:20 Failed to assigned a task to map
+2020/08/30 18:31:20 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:20 Failed to assigned a task to map
+2020/08/30 18:31:20 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:20 Failed to assigned a task to map
+2020/08/30 18:31:20 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:21 Assign a task to map after timeout, taskId= 0
+2020/08/30 18:31:21 AskMapTask success, reply= {../pg-being_ernest.txt 0 true 10}
+2020/08/30 18:31:21 Start to do map task, taskId= 0, FileName= ../pg-being_ernest.txt 
+2020/08/30 18:31:21 Finish the map task, taskId= 0, then tell master
+2020/08/30 18:31:21 Mark the Map Task Completed in teller, TaskId= 0
+2020/08/30 18:31:21 Failed to assigned a task to map
+2020/08/30 18:31:21 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:21 Failed to assigned a task to map
+2020/08/30 18:31:21 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:21 Failed to assigned a task to map
+2020/08/30 18:31:21 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:21 Failed to assigned a task to map
+2020/08/30 18:31:21 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:22 Assign a task to map after timeout, taskId= 2
+2020/08/30 18:31:22 Assign a task to map after timeout, taskId= 3
+2020/08/30 18:31:22 AskMapTask success, reply= {../pg-grimm.txt 3 true 10}
+2020/08/30 18:31:22 Start to do map task, taskId= 3, FileName= ../pg-grimm.txt 
+2020/08/30 18:31:22 Failed to assigned a task to map
+2020/08/30 18:31:22 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:22 Failed to assigned a task to map
+2020/08/30 18:31:22 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:22 Failed to assigned a task to map
+2020/08/30 18:31:22 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:23 Failed to assigned a task to map
+2020/08/30 18:31:23 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:23 Failed to assigned a task to map
+2020/08/30 18:31:23 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:23 Failed to assigned a task to map
+2020/08/30 18:31:23 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:24 Failed to assigned a task to map
+2020/08/30 18:31:24 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:24 Failed to assigned a task to map
+2020/08/30 18:31:24 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:24 Failed to assigned a task to map
+2020/08/30 18:31:24 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:25 Failed to assigned a task to map
+2020/08/30 18:31:25 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:25 Failed to assigned a task to map
+2020/08/30 18:31:25 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:25 Finish the map task, taskId= 3, then tell master
+2020/08/30 18:31:25 Mark the Map Task Completed in teller, TaskId= 3
+2020/08/30 18:31:25 Failed to assigned a task to map
+2020/08/30 18:31:25 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:25 Failed to assigned a task to map
+2020/08/30 18:31:25 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:26 Failed to assigned a task to map
+2020/08/30 18:31:26 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:26 Failed to assigned a task to map
+2020/08/30 18:31:26 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:26 Failed to assigned a task to map
+2020/08/30 18:31:26 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:26 Failed to assigned a task to map
+2020/08/30 18:31:26 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:27 Failed to assigned a task to map
+2020/08/30 18:31:27 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:27 Failed to assigned a task to map
+2020/08/30 18:31:27 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:27 Failed to assigned a task to map
+2020/08/30 18:31:27 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:27 Failed to assigned a task to map
+2020/08/30 18:31:27 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:28 Failed to assigned a task to map
+2020/08/30 18:31:28 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:28 Failed to assigned a task to map
+2020/08/30 18:31:28 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:28 Failed to assigned a task to map
+2020/08/30 18:31:28 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:28 Failed to assigned a task to map
+2020/08/30 18:31:28 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:29 Failed to assigned a task to map
+2020/08/30 18:31:29 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:29 Failed to assigned a task to map
+2020/08/30 18:31:29 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:29 Failed to assigned a task to map
+2020/08/30 18:31:29 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:29 Failed to assigned a task to map
+2020/08/30 18:31:29 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:30 Failed to assigned a task to map
+2020/08/30 18:31:30 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:30 Failed to assigned a task to map
+2020/08/30 18:31:30 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:30 Failed to assigned a task to map
+2020/08/30 18:31:30 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:30 Failed to assigned a task to map
+2020/08/30 18:31:30 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:31 Failed to assigned a task to map
+2020/08/30 18:31:31 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:31 Failed to assigned a task to map
+2020/08/30 18:31:31 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:31 Failed to assigned a task to map
+2020/08/30 18:31:31 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:31 Failed to assigned a task to map
+2020/08/30 18:31:31 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:32 Assign a task to map after timeout, taskId= 2
+2020/08/30 18:31:32 AskMapTask success, reply= {../pg-frankenstein.txt 2 true 10}
+2020/08/30 18:31:32 Start to do map task, taskId= 2, FileName= ../pg-frankenstein.txt 
+2020/08/30 18:31:32 Failed to assigned a task to map
+2020/08/30 18:31:32 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:32 Failed to assigned a task to map
+2020/08/30 18:31:32 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:32 Failed to assigned a task to map
+2020/08/30 18:31:32 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:33 Failed to assigned a task to map
+2020/08/30 18:31:33 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:33 Failed to assigned a task to map
+2020/08/30 18:31:33 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:33 Failed to assigned a task to map
+2020/08/30 18:31:33 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:33 Failed to assigned a task to map
+2020/08/30 18:31:33 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:34 Failed to assigned a task to map
+2020/08/30 18:31:34 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:34 Failed to assigned a task to map
+2020/08/30 18:31:34 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:34 Failed to assigned a task to map
+2020/08/30 18:31:34 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:34 Failed to assigned a task to map
+2020/08/30 18:31:34 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:35 Failed to assigned a task to map
+2020/08/30 18:31:35 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:35 Failed to assigned a task to map
+2020/08/30 18:31:35 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:35 Failed to assigned a task to map
+2020/08/30 18:31:35 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:35 Failed to assigned a task to map
+2020/08/30 18:31:35 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:36 Failed to assigned a task to map
+2020/08/30 18:31:36 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:36 Failed to assigned a task to map
+2020/08/30 18:31:36 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:36 Failed to assigned a task to map
+2020/08/30 18:31:36 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:36 Failed to assigned a task to map
+2020/08/30 18:31:36 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:37 Failed to assigned a task to map
+2020/08/30 18:31:37 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:37 Failed to assigned a task to map
+2020/08/30 18:31:37 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:37 Failed to assigned a task to map
+2020/08/30 18:31:37 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:37 Failed to assigned a task to map
+2020/08/30 18:31:37 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:38 Failed to assigned a task to map
+2020/08/30 18:31:38 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:38 Failed to assigned a task to map
+2020/08/30 18:31:38 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:38 Failed to assigned a task to map
+2020/08/30 18:31:38 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:38 Failed to assigned a task to map
+2020/08/30 18:31:38 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:39 Failed to assigned a task to map
+2020/08/30 18:31:39 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:39 Failed to assigned a task to map
+2020/08/30 18:31:39 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:39 Failed to assigned a task to map
+2020/08/30 18:31:39 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:39 Failed to assigned a task to map
+2020/08/30 18:31:39 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:40 Failed to assigned a task to map
+2020/08/30 18:31:40 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:40 Failed to assigned a task to map
+2020/08/30 18:31:40 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:40 Failed to assigned a task to map
+2020/08/30 18:31:40 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:40 Failed to assigned a task to map
+2020/08/30 18:31:40 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:41 Failed to assigned a task to map
+2020/08/30 18:31:41 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:41 Failed to assigned a task to map
+2020/08/30 18:31:41 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:41 Failed to assigned a task to map
+2020/08/30 18:31:41 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:41 Failed to assigned a task to map
+2020/08/30 18:31:41 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:42 Assign a task to map after timeout, taskId= 2
+2020/08/30 18:31:42 AskMapTask success, reply= {../pg-frankenstein.txt 2 true 10}
+2020/08/30 18:31:42 Start to do map task, taskId= 2, FileName= ../pg-frankenstein.txt 
+2020/08/30 18:31:42 Failed to assigned a task to map
+2020/08/30 18:31:42 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:42 Failed to assigned a task to map
+2020/08/30 18:31:42 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:42 Failed to assigned a task to map
+2020/08/30 18:31:42 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:43 Failed to assigned a task to map
+2020/08/30 18:31:43 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:43 Failed to assigned a task to map
+2020/08/30 18:31:43 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:43 Failed to assigned a task to map
+2020/08/30 18:31:43 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:43 Failed to assigned a task to map
+2020/08/30 18:31:43 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:44 Failed to assigned a task to map
+2020/08/30 18:31:44 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:44 Failed to assigned a task to map
+2020/08/30 18:31:44 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:44 Failed to assigned a task to map
+2020/08/30 18:31:44 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:44 Failed to assigned a task to map
+2020/08/30 18:31:44 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:45 Failed to assigned a task to map
+2020/08/30 18:31:45 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:45 Failed to assigned a task to map
+2020/08/30 18:31:45 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:45 Failed to assigned a task to map
+2020/08/30 18:31:45 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:45 Failed to assigned a task to map
+2020/08/30 18:31:45 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:46 Failed to assigned a task to map
+2020/08/30 18:31:46 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:46 Failed to assigned a task to map
+2020/08/30 18:31:46 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:46 Failed to assigned a task to map
+2020/08/30 18:31:46 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:46 Failed to assigned a task to map
+2020/08/30 18:31:46 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:47 Failed to assigned a task to map
+2020/08/30 18:31:47 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:47 Failed to assigned a task to map
+2020/08/30 18:31:47 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:47 Failed to assigned a task to map
+2020/08/30 18:31:47 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:47 Failed to assigned a task to map
+2020/08/30 18:31:47 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:48 Failed to assigned a task to map
+2020/08/30 18:31:48 Failed to assigned a task to map
+2020/08/30 18:31:48 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:48 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:48 Failed to assigned a task to map
+2020/08/30 18:31:48 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:48 Failed to assigned a task to map
+2020/08/30 18:31:48 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:49 Failed to assigned a task to map
+2020/08/30 18:31:49 Failed to assigned a task to map
+2020/08/30 18:31:49 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:49 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:49 Failed to assigned a task to map
+2020/08/30 18:31:49 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:49 Failed to assigned a task to map
+2020/08/30 18:31:49 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:50 Failed to assigned a task to map
+2020/08/30 18:31:50 Failed to assigned a task to map
+2020/08/30 18:31:50 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:50 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:50 Failed to assigned a task to map
+2020/08/30 18:31:50 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:50 Failed to assigned a task to map
+2020/08/30 18:31:50 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:51 Failed to assigned a task to map
+2020/08/30 18:31:51 Failed to assigned a task to map
+2020/08/30 18:31:51 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:51 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:51 Failed to assigned a task to map
+2020/08/30 18:31:51 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:51 Failed to assigned a task to map
+2020/08/30 18:31:51 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:52 Assign a task to map after timeout, taskId= 2
+2020/08/30 18:31:52 AskMapTask success, reply= {../pg-frankenstein.txt 2 true 10}
+2020/08/30 18:31:52 Start to do map task, taskId= 2, FileName= ../pg-frankenstein.txt 
+2020/08/30 18:31:52 Failed to assigned a task to map
+2020/08/30 18:31:52 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:52 Failed to assigned a task to map
+2020/08/30 18:31:52 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:52 Failed to assigned a task to map
+2020/08/30 18:31:52 Can not get map task, sleep 1 seconds
+2020/08/30 18:31:53 Finish the map task, taskId= 2, then tell master
+2020/08/30 18:31:53 Mark the Map Task Completed in teller, TaskId= 2
+2020/08/30 18:31:53 Assign a task to reduce first time, taskId= 2
+2020/08/30 18:31:53 AskReduceTask success, reply= {mr-reduce-2 2 true}
+2020/08/30 18:31:53 Start to do reduce task, taskId= 2, FileName= mr-reduce-2
+2020/08/30 18:31:53 Assign a task to reduce first time, taskId= 1
+2020/08/30 18:31:53 AskReduceTask success, reply= {mr-reduce-1 1 true}
+2020/08/30 18:31:53 Start to do reduce task, taskId= 1, FileName= mr-reduce-1
+2020/08/30 18:31:53 Mark the Reduce Task Completed in teller, TaskId= 1
+2020/08/30 18:31:53 Assign a task to reduce first time, taskId= 0
+2020/08/30 18:31:53 AskReduceTask success, reply= {mr-reduce-0 0 true}
+2020/08/30 18:31:53 Start to do reduce task, taskId= 0, FileName= mr-reduce-0
+2020/08/30 18:31:53 Mark the Reduce Task Completed in teller, TaskId= 0
+2020/08/30 18:31:53 Assign a task to reduce first time, taskId= 8
+2020/08/30 18:31:53 AskReduceTask success, reply= {mr-reduce-8 8 true}
+2020/08/30 18:31:53 Start to do reduce task, taskId= 8, FileName= mr-reduce-8
+2020/08/30 18:31:53 Mark the Reduce Task Completed in teller, TaskId= 8
+2020/08/30 18:31:53 Assign a task to reduce first time, taskId= 6
+2020/08/30 18:31:53 AskReduceTask success, reply= {mr-reduce-6 6 true}
+2020/08/30 18:31:53 Start to do reduce task, taskId= 6, FileName= mr-reduce-6
+2020/08/30 18:31:53 Mark the Reduce Task Completed in teller, TaskId= 6
+2020/08/30 18:31:53 Assign a task to reduce first time, taskId= 4
+2020/08/30 18:31:53 AskReduceTask success, reply= {mr-reduce-4 4 true}
+2020/08/30 18:31:53 Start to do reduce task, taskId= 4, FileName= mr-reduce-4
+2020/08/30 18:31:53 Mark the Reduce Task Completed in teller, TaskId= 4
+2020/08/30 18:31:53 Assign a task to reduce first time, taskId= 3
+2020/08/30 18:31:53 AskReduceTask success, reply= {mr-reduce-3 3 true}
+2020/08/30 18:31:53 Start to do reduce task, taskId= 3, FileName= mr-reduce-3
+2020/08/30 18:31:53 Mark the Reduce Task Completed in teller, TaskId= 3
+2020/08/30 18:31:53 Assign a task to reduce first time, taskId= 9
+2020/08/30 18:31:53 AskReduceTask success, reply= {mr-reduce-9 9 true}
+2020/08/30 18:31:53 Start to do reduce task, taskId= 9, FileName= mr-reduce-9
+2020/08/30 18:31:53 Assign a task to reduce first time, taskId= 5
+2020/08/30 18:31:53 AskReduceTask success, reply= {mr-reduce-5 5 true}
+2020/08/30 18:31:53 Start to do reduce task, taskId= 5, FileName= mr-reduce-5
+2020/08/30 18:31:53 Assign a task to reduce first time, taskId= 7
+2020/08/30 18:31:53 AskReduceTask success, reply= {mr-reduce-7 7 true}
+2020/08/30 18:31:53 Start to do reduce task, taskId= 7, FileName= mr-reduce-7
+2020/08/30 18:31:53 Mark the Reduce Task Completed in teller, TaskId= 7
+2020/08/30 18:31:53 Failed to assigned a task to reduce
+2020/08/30 18:31:53 Failed to assign task to reduce
+2020/08/30 18:31:53 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:53 Mark the Reduce Task Completed in teller, TaskId= 2
+2020/08/30 18:31:53 Failed to assigned a task to reduce
+2020/08/30 18:31:53 Failed to assign task to reduce
+2020/08/30 18:31:53 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:54 Failed to assigned a task to reduce
+2020/08/30 18:31:54 Failed to assign task to reduce
+2020/08/30 18:31:54 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:54 Failed to assigned a task to reduce
+2020/08/30 18:31:54 Failed to assign task to reduce
+2020/08/30 18:31:54 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:54 Failed to assigned a task to reduce
+2020/08/30 18:31:54 Failed to assign task to reduce
+2020/08/30 18:31:54 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:55 Failed to assigned a task to reduce
+2020/08/30 18:31:55 Failed to assign task to reduce
+2020/08/30 18:31:55 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:55 Failed to assigned a task to reduce
+2020/08/30 18:31:55 Failed to assign task to reduce
+2020/08/30 18:31:55 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:55 Failed to assigned a task to reduce
+2020/08/30 18:31:55 Failed to assign task to reduce
+2020/08/30 18:31:55 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:56 Failed to assigned a task to reduce
+2020/08/30 18:31:56 Failed to assign task to reduce
+2020/08/30 18:31:56 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:56 Failed to assigned a task to reduce
+2020/08/30 18:31:56 Failed to assign task to reduce
+2020/08/30 18:31:56 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:56 Mark the Reduce Task Completed in teller, TaskId= 9
+2020/08/30 18:31:56 Failed to assigned a task to reduce
+2020/08/30 18:31:56 Failed to assign task to reduce
+2020/08/30 18:31:56 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:56 Failed to assigned a task to reduce
+2020/08/30 18:31:56 Failed to assign task to reduce
+2020/08/30 18:31:56 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:57 Failed to assigned a task to reduce
+2020/08/30 18:31:57 Failed to assign task to reduce
+2020/08/30 18:31:57 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:57 Failed to assigned a task to reduce
+2020/08/30 18:31:57 Failed to assign task to reduce
+2020/08/30 18:31:57 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:57 Failed to assigned a task to reduce
+2020/08/30 18:31:57 Failed to assign task to reduce
+2020/08/30 18:31:57 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:57 Failed to assigned a task to reduce
+2020/08/30 18:31:57 Failed to assign task to reduce
+2020/08/30 18:31:57 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:58 Failed to assigned a task to reduce
+2020/08/30 18:31:58 Failed to assign task to reduce
+2020/08/30 18:31:58 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:58 Failed to assigned a task to reduce
+2020/08/30 18:31:58 Failed to assign task to reduce
+2020/08/30 18:31:58 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:58 Failed to assigned a task to reduce
+2020/08/30 18:31:58 Failed to assign task to reduce
+2020/08/30 18:31:58 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:58 Failed to assigned a task to reduce
+2020/08/30 18:31:58 Failed to assign task to reduce
+2020/08/30 18:31:58 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:59 Failed to assigned a task to reduce
+2020/08/30 18:31:59 Failed to assign task to reduce
+2020/08/30 18:31:59 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:59 Failed to assigned a task to reduce
+2020/08/30 18:31:59 Failed to assign task to reduce
+2020/08/30 18:31:59 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:59 Failed to assigned a task to reduce
+2020/08/30 18:31:59 Failed to assign task to reduce
+2020/08/30 18:31:59 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:31:59 Failed to assigned a task to reduce
+2020/08/30 18:31:59 Failed to assign task to reduce
+2020/08/30 18:31:59 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:00 Failed to assigned a task to reduce
+2020/08/30 18:32:00 Failed to assign task to reduce
+2020/08/30 18:32:00 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:00 Failed to assigned a task to reduce
+2020/08/30 18:32:00 Failed to assign task to reduce
+2020/08/30 18:32:00 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:00 Failed to assigned a task to reduce
+2020/08/30 18:32:00 Failed to assign task to reduce
+2020/08/30 18:32:00 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:00 Failed to assigned a task to reduce
+2020/08/30 18:32:00 Failed to assign task to reduce
+2020/08/30 18:32:00 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:01 Failed to assigned a task to reduce
+2020/08/30 18:32:01 Failed to assign task to reduce
+2020/08/30 18:32:01 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:01 Failed to assigned a task to reduce
+2020/08/30 18:32:01 Failed to assign task to reduce
+2020/08/30 18:32:01 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:01 Failed to assigned a task to reduce
+2020/08/30 18:32:01 Failed to assign task to reduce
+2020/08/30 18:32:01 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:01 Failed to assigned a task to reduce
+2020/08/30 18:32:01 Failed to assign task to reduce
+2020/08/30 18:32:01 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:02 Failed to assigned a task to reduce
+2020/08/30 18:32:02 Failed to assign task to reduce
+2020/08/30 18:32:02 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:02 Failed to assigned a task to reduce
+2020/08/30 18:32:02 Failed to assign task to reduce
+2020/08/30 18:32:02 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:02 Failed to assigned a task to reduce
+2020/08/30 18:32:02 Failed to assign task to reduce
+2020/08/30 18:32:02 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:02 Failed to assigned a task to reduce
+2020/08/30 18:32:02 Failed to assign task to reduce
+2020/08/30 18:32:02 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:03 Assign a task to reduce after timeout, taskId= 5
+2020/08/30 18:32:03 AskReduceTask success, reply= {mr-reduce-5 5 true}
+2020/08/30 18:32:03 Start to do reduce task, taskId= 5, FileName= mr-reduce-5
+2020/08/30 18:32:03 Failed to assigned a task to reduce
+2020/08/30 18:32:03 Failed to assign task to reduce
+2020/08/30 18:32:03 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:03 Failed to assigned a task to reduce
+2020/08/30 18:32:03 Failed to assign task to reduce
+2020/08/30 18:32:03 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:03 Failed to assigned a task to reduce
+2020/08/30 18:32:03 Failed to assign task to reduce
+2020/08/30 18:32:03 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:04 Failed to assigned a task to reduce
+2020/08/30 18:32:04 Failed to assign task to reduce
+2020/08/30 18:32:04 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:04 Failed to assigned a task to reduce
+2020/08/30 18:32:04 Failed to assign task to reduce
+2020/08/30 18:32:04 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:04 Failed to assigned a task to reduce
+2020/08/30 18:32:04 Failed to assign task to reduce
+2020/08/30 18:32:04 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:05 Failed to assigned a task to reduce
+2020/08/30 18:32:05 Failed to assign task to reduce
+2020/08/30 18:32:05 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:05 Failed to assigned a task to reduce
+2020/08/30 18:32:05 Failed to assign task to reduce
+2020/08/30 18:32:05 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:05 Failed to assigned a task to reduce
+2020/08/30 18:32:05 Failed to assign task to reduce
+2020/08/30 18:32:05 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:05 Failed to assigned a task to reduce
+2020/08/30 18:32:05 Failed to assign task to reduce
+2020/08/30 18:32:05 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:06 Failed to assigned a task to reduce
+2020/08/30 18:32:06 Failed to assign task to reduce
+2020/08/30 18:32:06 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:06 Failed to assigned a task to reduce
+2020/08/30 18:32:06 Failed to assign task to reduce
+2020/08/30 18:32:06 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:06 Failed to assigned a task to reduce
+2020/08/30 18:32:06 Failed to assign task to reduce
+2020/08/30 18:32:06 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:06 Failed to assigned a task to reduce
+2020/08/30 18:32:06 Failed to assign task to reduce
+2020/08/30 18:32:06 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:07 Failed to assigned a task to reduce
+2020/08/30 18:32:07 Failed to assign task to reduce
+2020/08/30 18:32:07 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:07 Failed to assigned a task to reduce
+2020/08/30 18:32:07 Failed to assign task to reduce
+2020/08/30 18:32:07 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:07 Failed to assigned a task to reduce
+2020/08/30 18:32:07 Failed to assign task to reduce
+2020/08/30 18:32:07 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:07 Failed to assigned a task to reduce
+2020/08/30 18:32:07 Failed to assign task to reduce
+2020/08/30 18:32:07 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:08 Failed to assigned a task to reduce
+2020/08/30 18:32:08 Failed to assign task to reduce
+2020/08/30 18:32:08 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:08 Failed to assigned a task to reduce
+2020/08/30 18:32:08 Failed to assign task to reduce
+2020/08/30 18:32:08 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:08 Failed to assigned a task to reduce
+2020/08/30 18:32:08 Failed to assign task to reduce
+2020/08/30 18:32:08 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:08 Failed to assigned a task to reduce
+2020/08/30 18:32:08 Failed to assign task to reduce
+2020/08/30 18:32:08 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:09 Failed to assigned a task to reduce
+2020/08/30 18:32:09 Failed to assign task to reduce
+2020/08/30 18:32:09 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:09 Failed to assigned a task to reduce
+2020/08/30 18:32:09 Failed to assign task to reduce
+2020/08/30 18:32:09 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:09 Failed to assigned a task to reduce
+2020/08/30 18:32:09 Failed to assign task to reduce
+2020/08/30 18:32:09 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:09 Failed to assigned a task to reduce
+2020/08/30 18:32:09 Failed to assign task to reduce
+2020/08/30 18:32:09 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:10 Failed to assigned a task to reduce
+2020/08/30 18:32:10 Failed to assign task to reduce
+2020/08/30 18:32:10 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:10 Failed to assigned a task to reduce
+2020/08/30 18:32:10 Failed to assign task to reduce
+2020/08/30 18:32:10 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:10 Failed to assigned a task to reduce
+2020/08/30 18:32:10 Failed to assign task to reduce
+2020/08/30 18:32:10 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:10 Failed to assigned a task to reduce
+2020/08/30 18:32:10 Failed to assign task to reduce
+2020/08/30 18:32:10 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:11 Failed to assigned a task to reduce
+2020/08/30 18:32:11 Failed to assign task to reduce
+2020/08/30 18:32:11 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:11 Failed to assigned a task to reduce
+2020/08/30 18:32:11 Failed to assign task to reduce
+2020/08/30 18:32:11 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:11 Failed to assigned a task to reduce
+2020/08/30 18:32:11 Failed to assign task to reduce
+2020/08/30 18:32:11 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:11 Failed to assigned a task to reduce
+2020/08/30 18:32:11 Failed to assign task to reduce
+2020/08/30 18:32:11 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:12 Failed to assigned a task to reduce
+2020/08/30 18:32:12 Failed to assign task to reduce
+2020/08/30 18:32:12 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:12 Failed to assigned a task to reduce
+2020/08/30 18:32:12 Failed to assign task to reduce
+2020/08/30 18:32:12 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:12 Failed to assigned a task to reduce
+2020/08/30 18:32:12 Failed to assign task to reduce
+2020/08/30 18:32:12 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:12 Failed to assigned a task to reduce
+2020/08/30 18:32:12 Failed to assign task to reduce
+2020/08/30 18:32:12 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:13 Failed to assigned a task to reduce
+2020/08/30 18:32:13 Failed to assign task to reduce
+2020/08/30 18:32:13 Can not get reduce task, sleep 1 seconds
+2020/08/30 18:32:13 Assign a task to reduce after timeout, taskId= 5
+2020/08/30 18:32:13 AskReduceTask success, reply= {mr-reduce-5 5 true}
+2020/08/30 18:32:13 Start to do reduce task, taskId= 5, FileName= mr-reduce-5
+2020/08/30 18:32:13 Mark the Reduce Task Completed in teller, TaskId= 5
