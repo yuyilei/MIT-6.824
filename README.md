@@ -1,7 +1,7 @@
 # MIT-6.824
 
 ## My Notes and demos
-- [x] MapReduce: [note](https://github.com/yuyilei/MIT-6.824/blob/master/notes/MapReduce.md)
+- [x] MapReduce: [note](https://github.com/yuyilei/MIT-6.824/blob/master/2020/notes/map-reduce.md)
 - [x] Google File System: [note](https://github.com/yuyilei/MIT-6.824/blob/master/notes/GFS.md) 
 - [x] Remote Procedure Call: [note](https://github.com/yuyilei/MIT-6.824/blob/master/notes/RPC.md)、 [demo](https://github.com/yuyilei/gRPC_demo)               
 - [x] Time Synchronization: [note](https://github.com/yuyilei/MIT-6.824/blob/master/notes/TimeSynchronization.md) 
