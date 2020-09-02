@@ -28,7 +28,7 @@ type Master struct {
 
 ```
 
-master主要实现各种grpc的server端，如，worker索要map task、worker索要reduce task、worker查询是否所有map已完成等。 
+master主要实现各种grpc的server端，如，worker索要map task、worker索要reduce task、worker查询是否所有task已完成等。 
 
 以worker索要map task为例（worker索要reduce task同理）
 
