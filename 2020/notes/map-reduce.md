@@ -12,8 +12,8 @@
 type Master struct {
 
     taskTimeout  time.Duration
-	numReduce int             // reduce task的个数
-	numMap int                // map task的个数
+    numReduce int             // reduce task的个数
+    numMap int                // map task的个数
     files []string            // 输入文件的slice，长度等于numMap 
     mapTaskAssigned  map[int]*taskAssigned     // 标记每个map task是否被分配给map，taskAssigned结构体内有锁
     reduceTaskAssigned  map[int]*taskAssigned  // 标记每个reduce task是否被分配给reduce
